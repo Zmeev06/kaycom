@@ -33,13 +33,13 @@ export const useFormStore = defineStore('form', () => {
   const tariffs = ref<Tariff[]>([])
 
   const fetchAvailableData = async () => {
-    const response = await fetch('/src/mockData/availableData.json')
+    const response = await fetch('/mockData/availableData.json')
     const data = await response.json()
     setAvailableData(data)
   }
 
   const fetchTariffs = async () => {
-    const response = await fetch('/src/mockData/tariffs.json')
+    const response = await fetch('/mockData/tariffs.json')
     const data = await response.json()
     tariffs.value = data.tariffs
   }
