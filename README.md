@@ -16,8 +16,8 @@
 1. Убедитесь, что у вас установлен [Node.js](https://nodejs.org/) (рекомендуется LTS-версия).
 2. Клонируйте репозиторий:
    ```sh
-   git clone <URL_РЕПОЗИТОРИЯ>
-   cd <НАЗВАНИЕ_ПРОЕКТА>
+   git clone https://github.com/Zmeev06/kaycom
+   cd ./kaycom
    ```
 3. Установите зависимости:
    ```sh
