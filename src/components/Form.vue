@@ -46,11 +46,6 @@ watch(
 )
 
 const onSubmit = () => {
-  if (!formStore.formData.phone) {
-    phoneError.value = true
-    return
-  }
-  phoneError.value = false
   alert(JSON.stringify(formStore.formData, null, 2))
 }
 

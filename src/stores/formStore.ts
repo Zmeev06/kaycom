@@ -52,7 +52,7 @@ export const useFormStore = defineStore('form', () => {
   ): number => {
     console.log('Полученные параметры:', minutes, sms, internet, router)
 
-    const routerBool = router === 'true' || router
+    const routerBool = String(router) === 'true'
 
     const selectedTariff = tariffs.value.find((tariff) => {
       return (

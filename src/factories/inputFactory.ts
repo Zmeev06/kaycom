@@ -17,7 +17,7 @@ export function formatPhone(input: string): string {
   return formatted
 }
 
-interface InputConfig {
+export interface InputConfig {
   type: InputType
   label: string
   placeholder?: string

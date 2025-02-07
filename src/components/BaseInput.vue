@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { defineProps, defineEmits, computed } from 'vue'
 import { findClosestValue, calculateStep, getLabelPosition } from '@/utils/sliderUtils'
-import { formatPhone, InputType } from '@/factories/inputFactory'
+import { formatPhone } from '@/factories/inputFactory'
+import type { InputType } from '@/factories/inputFactory'
 
 interface Props {
   type: InputType
@@ -18,13 +19,14 @@ const emit = defineEmits(['update:modelValue'])
 const formattedValue = computed({
   get: () => (props.type === 'phone' ? formatPhone(String(props.modelValue)) : props.modelValue),
   set: (newValue) => {
-    emit('update:modelValue', props.type === 'phone' ? formatPhone(newValue) : newValue)
+    emit('update:modelValue', props.type === 'phone' ? formatPhone(String(newValue)) : newValue)
   },
 })
 
-const restrictInput = (event: InputEvent) => {
-  if (props.type === 'phone' && event.data && !/^\d$/.test(event.data)) {
-    event.preventDefault()
+const restrictInput = (event: Event) => {
+  const inputEvent = event as InputEvent
+  if (props.type === 'phone' && inputEvent.data && !/^\d$/.test(inputEvent.data)) {
+    inputEvent.preventDefault()
   }
 }
 
