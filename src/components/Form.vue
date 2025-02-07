@@ -35,15 +35,7 @@ const updatePrice = async () => {
   price.value = `${formStore.calculatePrice(formStore.formData.minutes, formStore.formData.sms, formStore.formData.internet, formStore.formData.router)}`
 }
 
-watch(
-  [
-    formStore.formData.minutes,
-    formStore.formData.sms,
-    formStore.formData.internet,
-    formStore.formData.router,
-  ],
-  updatePrice,
-)
+watch(formStore.formData, updatePrice, { deep: true })
 
 const onSubmit = () => {
   alert(JSON.stringify(formStore.formData, null, 2))
