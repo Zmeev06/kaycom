@@ -1,0 +1,5 @@
+{
+  "availableMinutes": [200, 350, 600, 650],
+  "availableSms": [0, 50, 100, 150],
+  "availableInternet": [5, 15, 30, 35]
+}

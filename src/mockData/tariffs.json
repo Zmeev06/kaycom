@@ -1,0 +1,228 @@
+{
+  "tariffs": [
+    {
+      "minutes": 200,
+      "sms": 0,
+      "internet": 5,
+      "router": false,
+      "price": 480
+    },
+    {
+      "minutes": 200,
+      "sms": 0,
+      "internet": 15,
+      "router": false,
+      "price": 550
+    },
+    {
+      "minutes": 200,
+      "sms": 0,
+      "internet": 30,
+      "router": false,
+      "price": 600
+    },
+    {
+      "minutes": 200,
+      "sms": 0,
+      "internet": 35,
+      "router": false,
+      "price": 650
+    },
+    {
+      "minutes": 200,
+      "sms": 50,
+      "internet": 5,
+      "router": false,
+      "price": 600
+    },
+    {
+      "minutes": 200,
+      "sms": 50,
+      "internet": 15,
+      "router": false,
+      "price": 650
+    },
+    {
+      "minutes": 200,
+      "sms": 50,
+      "internet": 30,
+      "router": false,
+      "price": 700
+    },
+    {
+      "minutes": 200,
+      "sms": 50,
+      "internet": 35,
+      "router": false,
+      "price": 750
+    },
+    {
+      "minutes": 350,
+      "sms": 0,
+      "internet": 5,
+      "router": false,
+      "price": 650
+    },
+    {
+      "minutes": 350,
+      "sms": 0,
+      "internet": 15,
+      "router": false,
+      "price": 720
+    },
+    {
+      "minutes": 350,
+      "sms": 0,
+      "internet": 30,
+      "router": false,
+      "price": 770
+    },
+    {
+      "minutes": 350,
+      "sms": 0,
+      "internet": 35,
+      "router": false,
+      "price": 820
+    },
+    {
+      "minutes": 350,
+      "sms": 50,
+      "internet": 5,
+      "router": false,
+      "price": 720
+    },
+    {
+      "minutes": 350,
+      "sms": 50,
+      "internet": 15,
+      "router": false,
+      "price": 780
+    },
+    {
+      "minutes": 350,
+      "sms": 50,
+      "internet": 30,
+      "router": false,
+      "price": 830
+    },
+    {
+      "minutes": 350,
+      "sms": 50,
+      "internet": 35,
+      "router": false,
+      "price": 880
+    },
+    {
+      "minutes": 600,
+      "sms": 0,
+      "internet": 5,
+      "router": false,
+      "price": 720
+    },
+    {
+      "minutes": 600,
+      "sms": 0,
+      "internet": 15,
+      "router": false,
+      "price": 790
+    },
+    {
+      "minutes": 600,
+      "sms": 0,
+      "internet": 30,
+      "router": false,
+      "price": 840
+    },
+    {
+      "minutes": 600,
+      "sms": 0,
+      "internet": 35,
+      "router": false,
+      "price": 890
+    },
+    {
+      "minutes": 600,
+      "sms": 50,
+      "internet": 5,
+      "router": false,
+      "price": 790
+    },
+    {
+      "minutes": 600,
+      "sms": 50,
+      "internet": 15,
+      "router": false,
+      "price": 850
+    },
+    {
+      "minutes": 600,
+      "sms": 50,
+      "internet": 30,
+      "router": false,
+      "price": 900
+    },
+    {
+      "minutes": 600,
+      "sms": 50,
+      "internet": 35,
+      "router": false,
+      "price": 950
+    },
+    {
+      "minutes": 650,
+      "sms": 0,
+      "internet": 5,
+      "router": false,
+      "price": 750
+    },
+    {
+      "minutes": 650,
+      "sms": 0,
+      "internet": 15,
+      "router": false,
+      "price": 820
+    },
+    {
+      "minutes": 650,
+      "sms": 0,
+      "internet": 30,
+      "router": false,
+      "price": 870
+    },
+    {
+      "minutes": 650,
+      "sms": 0,
+      "internet": 35,
+      "router": false,
+      "price": 920
+    },
+    {
+      "minutes": 650,
+      "sms": 50,
+      "internet": 5,
+      "router": false,
+      "price": 820
+    },
+    {
+      "minutes": 650,
+      "sms": 50,
+      "internet": 15,
+      "router": false,
+      "price": 880
+    },
+    {
+      "minutes": 650,
+      "sms": 50,
+      "internet": 30,
+      "router": false,
+      "price": 930
+    },
+    {
+      "minutes": 650,
+      "sms": 50,
+      "internet": 35,
+      "router": false,
+      "price": 980
+    }
+  ]
+}
